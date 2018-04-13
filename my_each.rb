@@ -1,7 +1,7 @@
 def my_each(argument)
   counter = 0
   while counter < argument.length
-    yield  {puts word }
+    yield argument[counter]
     counter += 1
   end
 end
